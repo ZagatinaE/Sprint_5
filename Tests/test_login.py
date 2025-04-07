@@ -1,7 +1,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import LocatorsAll
-from data import CORRECT_PASSWORD, INCORRECT_PASSWORD, NEW_EMAIL, MY_EMAIL
+from data import CORRECT_PASSWORD, MY_EMAIL
 
 
 class TestStellarBurgersLogin:
